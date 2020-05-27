@@ -1,0 +1,17 @@
+<table>
+    <tr>
+       <th>ID</th>
+        <th>Nome</th>
+        <th>Estado</th>
+        <th>Codigo ibge</th>
+        <th>População</th>
+    </tr>
+    <tr *ngFor= "let cidade of cidades; let i = index;">
+         <td>{{ cidade.id }}</td>
+         <td>{{ cidade.nome }}</td>
+         <td>{{ cidade.estado_id.nome }}</td>
+         <td>{{ cidade.codigo_ibge }}</td>
+         <td>{{ cidade.populacao_2010 }} </td>
+    </tr>
+ </table>
+ 

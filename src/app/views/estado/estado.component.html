@@ -1,0 +1,19 @@
+
+
+<table>
+
+   <tr>
+      <th>Código</th>
+       <th>Sigla</th>
+       <th>Nome</th>
+   </tr>
+   <tr *ngFor= "let estado of estados; let i = index;">
+        <td>{{ estado.id }}</td>
+        <td>{{ estado.sigla }}</td>
+        <td>{{ estado.nome }} </td>
+   </tr>
+
+
+
+</table>
+

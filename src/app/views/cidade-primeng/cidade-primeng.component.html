@@ -1,0 +1,22 @@
+<h3 class="first">Cidades (Componente PrimeNG)</h3>
+
+<p-table [value]="cidades">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Estado</th>         
+            <th>Código IBGE</th>         
+            <th>População</th>         
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-cidade>
+        <tr>
+            <td>{{ cidade.id }}</td>
+            <td>{{ cidade.nome }}</td>
+            <td>{{ cidade.estado_id.nome }}</td>
+            <td>{{ cidade.codigo_ibge }}</td>
+            <td>{{ cidade.populacao_2010 }} </td>       
+        </tr>
+    </ng-template>
+</p-table>
