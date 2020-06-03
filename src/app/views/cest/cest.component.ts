@@ -8,11 +8,11 @@ import { Tab_CestService } from 'src/app/services/tab_cest-service';
   styleUrls: ['./cest.component.css']
 })
 export class CestComponent implements OnInit {
-  tab_cests: Tab_Cest[] = new Array();
+  cests: Tab_Cest[] = new Array();
 
   constructor(private cestService: Tab_CestService) { }
 
   ngOnInit() {
-    this.cestService.list().subscribe(response => this.tab_cests = response)
+    this.cestService.list().subscribe(response => this.cests = response)
   }
 }

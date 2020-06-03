@@ -8,6 +8,7 @@ import { EstadoComponent } from './views/estado/estado.component';
 import { AppRoutes} from './app.routes';
 import { CidadeComponent } from './views/cidade/cidade.component';
 import { EstadoService } from './services/estado-service';
+import { Tab_CestService } from './services/tab_cest-service';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -94,7 +95,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     MatDatepickerModule,
   ],
 
-  providers: [EstadoService, CidadeService],
+  providers: [EstadoService, CidadeService, Tab_CestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

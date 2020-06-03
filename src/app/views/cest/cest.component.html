@@ -2,8 +2,8 @@
     <app-bloco></app-bloco>
     <app-blocoreverse></app-blocoreverse>
 </div>
-<p-table #dt [value]="tab_cests"  dataKey="id"  [rowHover]="true"
-    [rows]="15" [showCurrentPageReport]="true"  [loading]="loading"
+<p-table #dt [value]="cests"  dataKey="id"  [rowHover]="true"
+    [rows]="10" [showCurrentPageReport]="true"  [loading]="loading"
     [paginator]="true" currentPageReportTemplate="Mostrando de {first} até {last} dos {totalRecords} resultados.">
     <ng-template pTemplate="header">
         <tr>
