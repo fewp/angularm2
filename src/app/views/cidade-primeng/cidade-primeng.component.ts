@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Cidade } from 'src/app/services/cidade';
 import { CidadeService } from 'src/app/services/cidade-service';
-import { TableModule } from 'primeng/table';
 
 @Component({
   selector: 'app-cidade-primeng',

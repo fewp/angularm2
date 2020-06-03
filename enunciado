@@ -1,0 +1,11 @@
+Parte 2: Consumo de microservice (4 pontos)
+
+- Criar Classe Tab_Cest, com atributos id, ncm e descrição, todos do tipo String.
+Obs: CEST é o Código Especificador da Substituição Tributária de Produtos.
+- Criar o serviço de acesso ao microservice (https://kestoqueapi.herokuapp.com/tabs_cest)
+- Criar componente para visualização em tabela dos dados do micro serviço
+- Criar opção de menu e rota associada para o componente.
+Enviar via próprio repositório Github até 03/06/2020 (23:59h)
+
+
+https://knop-api.herokuapp.com/cidades

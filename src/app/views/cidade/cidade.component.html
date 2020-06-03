@@ -1,9 +1,14 @@
+<div id="blocos">
+    <app-bloco></app-bloco>
+    <app-blocoreverse></app-blocoreverse>
+</div>
+
 <table>
     <tr>
        <th>ID</th>
         <th>Nome</th>
         <th>Estado</th>
-        <th>Codigo ibge</th>
+        <th>Código IBGE</th>
         <th>População</th>
     </tr>
     <tr *ngFor= "let cidade of cidades; let i = index;">

@@ -1,0 +1,45 @@
+
+aside {
+    min-width: 30vh;
+    max-width: 30vh;
+    height: 92.9%;
+    background-color: #24292F;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+a {
+    margin: 0 0 0 30px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 200;
+    color: #fff;
+}
+
+a:hover {
+    color: #DF0031;
+    text-decoration: none;
+}
+
+.aDiv {
+    background-color: #2A3139;
+    padding: 15px 0;
+    margin: 2px 0;
+}
+.aDiv:hover {
+    background-color: #343B41;
+}
+
+

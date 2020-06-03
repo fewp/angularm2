@@ -27,7 +27,24 @@ import { MenuModule } from 'primeng/menu';
 import { MenubarModule } from 'primeng/menubar';
 import { EstadoPrimengComponent } from './views/estado-primeng/estado-primeng.component';
 import { CidadePrimengComponent } from './views/cidade-primeng/cidade-primeng.component';
-
+import {SidebarModule} from 'primeng/sidebar';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import {ChartModule} from 'primeng/chart';
+import { GraficoComponent } from './grafico/grafico.component';
+import { BlocoComponent } from './bloco/bloco.component';
+import { BlocoreverseComponent } from './blocoreverse/blocoreverse.component';
+import {ScrollPanelModule} from 'primeng/scrollpanel';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatBadgeModule } from '@angular/material/badge';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { CadastroPessoas } from './views/cadastro-pessoas/cadastro-pessoas.component';
+import { CestComponent } from './views/cest/cest.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [
@@ -38,6 +55,12 @@ import { CidadePrimengComponent } from './views/cidade-primeng/cidade-primeng.co
     HomeComponent,
     EstadoPrimengComponent,
     CidadePrimengComponent,
+    SidebarComponent,
+    GraficoComponent,
+    BlocoComponent,
+    BlocoreverseComponent,
+    CadastroPessoas,
+    CestComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +78,20 @@ import { CidadePrimengComponent } from './views/cidade-primeng/cidade-primeng.co
     TableModule,
     VirtualScrollerModule,
     MenuModule,
-    MenubarModule
+    MenubarModule,
+    SidebarModule,
+    ChartModule,
+    ScrollPanelModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatDatepickerModule,
   ],
 
   providers: [EstadoService, CidadeService],

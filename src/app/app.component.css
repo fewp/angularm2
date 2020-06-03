@@ -1,0 +1,19 @@
+#root {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    position: fixed;
+    padding: 30px;
+    margin-left: 30vh;
+    width: 161vh;
+    display: flex;
+}
+
+* {
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}

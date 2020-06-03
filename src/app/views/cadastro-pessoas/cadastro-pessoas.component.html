@@ -1,0 +1,60 @@
+<div id="blocos">
+    <app-bloco></app-bloco>
+    <app-blocoreverse></app-blocoreverse>
+</div>
+<div id="form">
+    <h1>Cadastro de Pessoas</h1>
+    <form >
+        <div class="form-group">
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>Nome</mat-label>
+                    <input matInput required>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>CPF</mat-label>
+                    <input matInput required>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>RG</mat-label>
+                    <input matInput required>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>E-mail</mat-label>
+                    <input matInput required>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>Idade</mat-label>
+                    <input matInput required>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="full-width">
+                    <mat-label>Sexo</mat-label>
+                    <select matNativeControl required>
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                    </select>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="botoes">
+            <button class="btnSalvar" type="submit">
+                Salvar
+            </button>
+            <button class="btnLimpar" type="reset">
+                Limpar
+            </button>
+        </div>
+    </form>
+</div>

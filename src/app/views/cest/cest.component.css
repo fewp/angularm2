@@ -2,8 +2,6 @@ th {
     text-align: left;
 }
 
-
-
 :host ::ng-deep .ui-paginator {
     float: right;
     width: 100%;
@@ -18,6 +16,8 @@ th {
     outline-offset: 0;
     box-shadow: 0 0 0 0.2em rgba(223,0,49,0.3);
 }
+/* ui-paginator-element ui-state-default ui-corner-all ui-state-active */
+/* class="ui-paginator-bottom ui-paginator ui-widget ui-widget-header ui-unselectable-text ui-helper-clearfix" */
 
 #blocos{
     display: flex;
