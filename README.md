@@ -1,27 +1,29 @@
-# Angularm2
+<img alt="AngularM2" src="https://i.imgur.com/Tgaegz1.png"/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+<h3 align="center">
+    Conceitos de AngularJS: Web Design (UNC)
+</h3>
 
-## Development server
+<p align="center">Dashboard desenvolvida para estudo dos conceitos do Angular</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Sobre 
 
-## Code scaffolding
+Este projeto foi criado com o propósito de estudar o framework, fazendo uso dos conceitos básicos de reutilização de componentes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A aplicação serviu como avaliação para a disciplina de Web Design da UNC (5ª Fase).
 
-## Build
+### Requisitos da avaliação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+A aplicação deveria conter: 
 
-## Running unit tests
+- Menu com rotas
+- Dashboard da aplicação
+- Listagem de Cidades
+- Listagem de Estados
+- Listagem de CEST
+- Utilização de microserviços para as listagens
+- Componente de formulário com dados necessários para um cadastro de pessoa
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Deveriam ser utilizados componentes do **[PrimeNG](https://www.primefaces.org/primeng/)** e **[AngularMaterial](https://material.angular.io)**
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<img alt="Mockup" src="https://i.imgur.com/kcjMB2M.png"/>
