@@ -8,7 +8,7 @@
 
 ## Sobre 
 
-Este projeto foi criado com o propósito de estudar o framework, fazendo uso dos conceitos básicos de reutilização de componentes.
+Este projeto foi criado com o propósito de fixar os principais conceitos de Web Design.
 
 A aplicação serviu como avaliação para a disciplina de Web Design da UNC (5ª Fase).
 
@@ -24,13 +24,6 @@ A aplicação deveria conter:
 - Utilização de microserviços para as listagens
 - Componente de formulário com dados necessários para um cadastro de pessoa
 
-## Tecnologias Utilizadas 
-
-- Flutter
-- Dart
-- Firebase
-
-
 Deveriam ser utilizados componentes do **[PrimeNG](https://www.primefaces.org/primeng/)** e **[AngularMaterial](https://material.angular.io)**
 
-<img alt="Mockup" src="https://i.imgur.com/kcjMB2M.png"/>
+<img alt="Mockup" src="https://i.imgur.com/szAHswJ.png"/>
