@@ -24,6 +24,13 @@ A aplicação deveria conter:
 - Utilização de microserviços para as listagens
 - Componente de formulário com dados necessários para um cadastro de pessoa
 
+## Tecnologias Utilizadas 
+
+- Flutter
+- Dart
+- Firebase
+
+
 Deveriam ser utilizados componentes do **[PrimeNG](https://www.primefaces.org/primeng/)** e **[AngularMaterial](https://material.angular.io)**
 
 <img alt="Mockup" src="https://i.imgur.com/kcjMB2M.png"/>
